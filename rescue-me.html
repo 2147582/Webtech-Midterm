@@ -2,49 +2,55 @@
 
 <HTML>
   <head>
+    
     <meta charset="utf-8">
+    <script src="assets/js/"></script>
+    <link rel="stylesheet" href="assets/css/main.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
   <head>
   <body>
       <div id="title">
         <h1> Search and Rescue Application </h1>
       </div>
+      
+          <h3> Information </h3>
+          <h4> Number of people involved: <input type="number" name="Number of People involved" min="1" max="50"> </h4>
+      <div id="info-details">
+          <h3> Name: <input type="text" name="name"> </h3>
+          <input type="text" name="age">
 
-      <h3> Information </h3>
-      <input type="number" name="Number of People involved" min="1" max="50">
-      <input type="text" name="name">
-      <input type="text" name="age">
+          <select>
+            <option value="M"> Male </option>
+            <option value="F"> Female </option>
+          </select>
 
-      <select>
-        <option value="M"> Male </option>
-        <option value="F"> Female </option>
-      </select>
-
-      <h3> Area of Incident </h3>
-      <select id="Region">
-        <option> Region </option>
-        <option value="1"> CAR </option>
-        <option value="2"> Region 1 </option>
-        <option value="3"> Region 2 </option>
-        <option value="4"> Region 3 </option>
-      </select>
-      <select id="Province">
-        <option> Province </option>
-        <option value="p1"> Abra </option>
-        <option value="p2"> Kalinga </option>
-        <option value="p3"> Benguet </option>
-        <option value="p4"> Mountain Province </option>
-      </select>
-      <select id="Barangay">
-        <option> Barangay </option>
-        <option value="1"> Bakakeng </option>
-        <option value="2"> Pacdal </option>
-      </select>
-      <select id="Municipality">
-        <option> Municipality </option>
-        <option value="1"> Baguio City </option>
-        <option value="2"> Pacdal </option>
-      </select>
-
+          <h3> Area of Incident </h3>
+          <select id="Region">
+            <option> Region </option>
+            <option value="1"> CAR </option>
+            <option value="2"> Region 1 </option>
+            <option value="3"> Region 2 </option>
+            <option value="4"> Region 3 </option>
+          </select>
+          <select id="Province">
+            <option> Province </option>
+            <option value="p1"> Abra </option>
+            <option value="p2"> Kalinga </option>
+            <option value="p3"> Benguet </option>
+            <option value="p4"> Mountain Province </option>
+          </select>
+          <select id="Barangay">
+            <option> Barangay </option>
+            <option value="1"> Bakakeng </option>
+            <option value="2"> Pacdal </option>
+          </select>
+          <select id="Municipality">
+            <option> Municipality </option>
+            <option value="1"> Baguio City </option>
+            <option value="2"> Pacdal </option>
+          </select>
+      </div>
     <br>
     <br>
     <button type="submit" value="Submit"> Submit </button>
