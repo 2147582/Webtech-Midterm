@@ -1,12 +1,21 @@
 /*
 	This file contains the main CSS for the whole webpage.
 */
-
-
- #title {
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+ 
+#title {
  	text-align: center;
  	font-family: 'Lora', serif;
  }
+
+body {
+    background-image: url("../img/rescue-img.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 
  #updates {
  	font-family: 'Lora', serif;
@@ -16,7 +25,7 @@
  #buttons {
  	font-family: 'Quicksand', serif;
  	text-align: center;
- 	padding: 15px;
+ 	padding: 30px;
  	word-spacing: 30px;
 
  }
@@ -32,17 +41,9 @@ table, th {
 
 }
 
-body {
-    background-image: url("../img/rescue-img.jpg");
-    background-position: top;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #buttons > a > button {background-color: #008CBA;}
 
 button {
-    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;

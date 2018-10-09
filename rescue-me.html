@@ -2,24 +2,21 @@
 
 <HTML>
   <head>
-    
     <meta charset="utf-8">
-    <script src="assets/js/"></script>
-    <link rel="stylesheet" href="assets/css/main.css"></link>
+    <script src="assets/js/ajax.js"></script>
+    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
   <head>
   <body>
       <div id="title">
         <h1> Search and Rescue Application </h1>
       </div>
       
-          <h3> Information </h3>
-          <h4> Number of people involved: <input type="number" name="Number of People involved" min="1" max="50"> </h4>
-      <div id="info-details">
-          <h3> Name: <input type="text" name="name"> </h3>
-          <input type="text" name="age">
 
+    <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        
           <select>
             <option value="M"> Male </option>
             <option value="F"> Female </option>
@@ -50,8 +47,7 @@
             <option value="1"> Baguio City </option>
             <option value="2"> Pacdal </option>
           </select>
-      </div>
-    <br>
-    <br>
-    <button type="submit" value="Submit"> Submit </button>
+        <input type="submit" value="Submit">
+    </form>
+      
   </body>
