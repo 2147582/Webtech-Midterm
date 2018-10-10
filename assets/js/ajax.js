@@ -1,5 +1,5 @@
 /*
-    This file contains Asynchronous Javascript and XML functions.
+    This file contains Asynchronous Javascript and XML (AJAX) functions.
 */
 
 // This allows the buttons to redirct to form page.

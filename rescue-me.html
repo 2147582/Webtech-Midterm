@@ -13,41 +13,87 @@
         <h1> Search and Rescue Application </h1>
       </div>
       
+    <div class="container">
+        <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+            <div class="row">
+              <div class="col-15">
+                <label for="fname">Name:</label>
+              </div>
+              <div class="col-35">
+                <input type="text" id="fname" name="victim" placeholder="Enter name..">
+              </div>
+              <div class="col-15">
+                <label for="gender">Gender:</label>
+              </div>
+              <div class="col-35">
+              <select id="Gender">
+                <option value="male"> Male </option>
+                <option value="female"> Female </option>
+              </select>
+              </div>
+            </div>
+            <div class="row">
+              
+              <div class="col-15">
+                <label for="region-s">Region: </label>
+              </div>
+              <div class="col-35"> 
+                <select id="Region">
+                  <option value="2"> ARMM </option>
+                  <option value="1"> CAR </option>
+                  <option value="2"> Region 1 </option>
+                  <option value="3"> Region 2 </option>
+                  <option value="4"> Region 3 </option>
+                  <option value="2"> Region 4 </option>
+                  <option value="3"> Region 5 </option>
+                  <option value="4"> Region 6 </option>
+                  <option value="2"> Region 7 </option>
+                  <option value="3"> Region 8 </option>
+                  <option value="4"> Region 9 </option>
+                  <option value="2"> Region 10 </option>
+                  <option value="3"> Region 11 </option>
+                  <option value="4"> Region 12 </option>
+                </select>
+              </div>
 
-    <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-        Name: <input type="text" name="fname">
-        
-          <select>
-            <option value="M"> Male </option>
-            <option value="F"> Female </option>
-          </select>
-
-          <h3> Area of Incident </h3>
-          <select id="Region">
-            <option> Region </option>
-            <option value="1"> CAR </option>
-            <option value="2"> Region 1 </option>
-            <option value="3"> Region 2 </option>
-            <option value="4"> Region 3 </option>
-          </select>
-          <select id="Province">
-            <option> Province </option>
-            <option value="p1"> Abra </option>
-            <option value="p2"> Kalinga </option>
-            <option value="p3"> Benguet </option>
-            <option value="p4"> Mountain Province </option>
-          </select>
-          <select id="Barangay">
-            <option> Barangay </option>
-            <option value="1"> Bakakeng </option>
-            <option value="2"> Pacdal </option>
-          </select>
-          <select id="Municipality">
-            <option> Municipality </option>
-            <option value="1"> Baguio City </option>
-            <option value="2"> Pacdal </option>
-          </select>
-        <input type="submit" value="Submit">
-    </form>
-      
+              <div class="col-15"> 
+                <label for="province-s">Province: </label>
+              </div>
+              <div class="col-35">
+              <select id="Province-CAR">
+                <option> Province </option>
+                <option value="p1"> Abra </option>
+                <option value="p2"> Kalinga </option>
+                <option value="p3"> Benguet </option>
+                <option value="p4"> Mountain Province </option>
+              </select>
+            </div>
+            
+            <div class="row">  
+               
+               <div class="col-15"> 
+                <label for="barangay-s">Barangay: </label>
+               </div>
+               <div class="col-35">
+                <select id="Barangay">
+                  <option> Barangay </option>
+                  <option value="1"> Bakakeng </option>
+                  <option value="2"> Pacdal </option>
+                </select>
+              </div>
+              
+              <div class="col-15">
+                <label for="municipality-s">Municipality: </label>
+              </div>
+              <div class="col-35">
+                <select id="Municipality">
+                  <option> Municipality </option>
+                  <option value="1"> Baguio City </option>
+                </select>
+              </div>
+            </div>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div> 
   </body>
