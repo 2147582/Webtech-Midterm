@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
  
 @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-15, .col-35, input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
@@ -51,6 +51,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+br{
+    padding-top: 25px;
 }
 
 input[type=submit] {
@@ -102,9 +106,12 @@ table, th {
 }
 
 select {
-    width: 65%;
+    width: auto;
 }
 
+textarea {
+    width: 95%;
+    padding: 20px;
 }
 
 #buttons > a > button {background-color: #008CBA;}
