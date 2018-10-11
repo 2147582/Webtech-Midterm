@@ -15,44 +15,59 @@
       
     <div class="container">
         <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-            <div class="row">
+            <div class="row"> <!-- individual information --> 
+              <div class="col-100">
+                <label for="name-desc"> Person Information </label>
+              </div>
+              
               <div class="col-15">
-                <label for="fname">Name:</label>
+                <label for="fname"> First Name:</label>
               </div>
               <div class="col-35">
                 <input type="text" id="fname" name="victim" placeholder="Enter name..">
               </div>
               <div class="col-15">
-                <label for="gender">Gender:</label>
+                <label for="gender"> Last Name:</label>
               </div>
               <div class="col-35">
-              <select id="Gender">
-                <option value="male"> Male </option>
-                <option value="female"> Female </option>
-              </select>
+                <input type="text" id="fname" name="victim" placeholder="Enter name..">
               </div>
+
+
+              <div class="col-15">
+                <label for="age"> Age: </label>
+              </div>
+              <div class="col-35">
+                <input type="number" id="age" name="victim" placeholder="Enter age..">
+              </div>
+              <div class="col-15">
+                <label for="age"> Gender: </label>
+              </div>
+              <div class="col-35">
+                <select id="Gender">
+                  <option value="male"> Male </option>
+                  <option value="female"> Female </option>
+                </select>
+              </div>
+
             </div>
-            <div class="row">
-              
+            
+            <div class="row"> <!-- Location of Incident -->
+              <div class="col-100">
+                <label> Area of incident </label>
+              </div>
               <div class="col-15">
                 <label for="region-s">Region: </label>
               </div>
               <div class="col-35"> 
                 <select id="Region">
-                  <option value="2"> ARMM </option>
+                  <option value="2"> NCR </option>
                   <option value="1"> CAR </option>
                   <option value="2"> Region 1 </option>
                   <option value="3"> Region 2 </option>
                   <option value="4"> Region 3 </option>
                   <option value="2"> Region 4 </option>
                   <option value="3"> Region 5 </option>
-                  <option value="4"> Region 6 </option>
-                  <option value="2"> Region 7 </option>
-                  <option value="3"> Region 8 </option>
-                  <option value="4"> Region 9 </option>
-                  <option value="2"> Region 10 </option>
-                  <option value="3"> Region 11 </option>
-                  <option value="4"> Region 12 </option>
                 </select>
               </div>
 
@@ -61,7 +76,6 @@
               </div>
               <div class="col-35">
               <select id="Province-CAR">
-                <option> Province </option>
                 <option value="p1"> Abra </option>
                 <option value="p2"> Kalinga </option>
                 <option value="p3"> Benguet </option>
