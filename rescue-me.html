@@ -17,7 +17,7 @@
         <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
             <div class="row">
               <div class="col-100">
-                <label>Number of people involved: </label>
+                <label id="heading">Number of people involved: </label>
               </div>
               <div class="100">
                 <input type="number" placeholder="Count...">
@@ -28,7 +28,7 @@
 
             <div class="row"> <!-- individual information --> 
               <div class="col-100">
-                <label for="name-desc"> Person's Information </label>
+                <label id="heading"> Person's Information </label>
               </div>
               
               <div class="col-15">
@@ -65,7 +65,7 @@
             <br>
             <div class="row"> <!-- Location of Incident -->
               <div class="col-100">
-                <label> Area of incident </label>
+                <label id="heading"> Area of incident </label>
               </div>
 
               <div class="col-15">
@@ -123,7 +123,7 @@
                 <label> Brief Description: </label>
               </div>
               <div class="col-100">
-                <textarea type="text"></textarea>
+                <textarea type="text" placeholder="Provide specific information here..."></textarea>
               </div>
 
 
