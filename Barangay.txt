@@ -1,0 +1,31 @@
+provinceBarangay['Baguio'] = ['Apugan-Loakan', 'Asin Road', 'Atok Trail', 'Bakakeng Central', 'Bakakeng North', 'Happy Hollow', 'Balsigan', 'Bayan Park West', 'Bayan Park East', 'Brookspoint', 'Brookside', 'Cabinet Hill- Teachers Camp', 'Camp Allen', 'Camp 7', 'Camp 8', 'Campo Filipino', 'City Camp Central', 'City Camp Proper', 'Country Club Village', 'Cresencia Village', 'Dasigan, Upper', 'DPS Area', 'Dizon Subdivision']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference: https://psa.gov.ph/content/population-319-thousand-was-recorded-baguio-city-results-2010-census-population-and-housing
