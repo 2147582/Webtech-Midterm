@@ -72,30 +72,72 @@
                 <label for="region-s">Region: </label>
               </div>
               <div class="col-35"> 
-                <select id="Region">
-                  <option value="2"> NCR </option>
-                  <option value="1"> CAR </option>
-                  <option value="2"> Region 1 </option>
-                  <option value="3"> Region 2 </option>
-                  <option value="4"> Region 3 </option>
-                  <option value="2"> Region 4 </option>
-                  <option value="3"> Region 5 </option>
-                </select>
+                <select id="region" onchange="ChangeRegionList()"> 
+  				        <option value=""> --select-- </option>
+                  <option value="ARMM"> ARMM </option>
+                  <option value="CAR"> CAR </option>
+				          <option value="NCR"> NCR </option>
+                  <option value="R1"> Region 1 </option>
+                  <option value="R2"> Region 2 </option>
+                  <option value="R3"> Region 3 </option>
+                  <option value="R4a"> Region 4a </option>
+				          <option value="R4b"> Region 4b </option>
+                  <option value="R5"> Region 5 </option>
+                  <option value="R6"> Region 6 </option>
+                  <option value="R7"> Region 7 </option>
+                  <option value="R8"> Region 8 </option>
+                  <option value="R9"> Region 9 </option>
+                  <option value="R10"> Region 10 </option>
+                  <option value="R11"> Region 11 </option>
+                  <option value="R12"> Region 12 </option>
+				          <option value="R12"> Region 13 </option>
+				        </select> 
               </div>
 
               <div class="col-15"> 
                 <label for="province-s">Province: </label>
               </div>
               <div class="col-35">
-                <select id="Province-CAR">
-                  <option value="p1"> Abra </option>
-                  <option value="p2"> Kalinga </option>
-                  <option value="p3"> Benguet </option>
-                  <option value="p4"> Mountain Province </option>
-                </select>
+                <select id="province"></select> 
               </div>
             </div>
-              
+              <script>
+				        var regionProvince = {};
+				        regionProvince['ARMM'] = ['Maguindanao', 'Lanao del Sur', 'Sulu', 'Tawi-Tawi','Basilan'];
+                regionProvince['CAR'] = ['Abra', 'Benguet', 'Kalinga', 'Apayao', 'Mountain Province', 'Ifugao'];
+                regionProvince['NCR'] = ['-----'];
+                regionProvince['R1'] = ['Ilocos Norte', 'Ilocos Sur', 'La Union', 'Pangasinan'];
+                regionProvince['R2'] = ['Batanes', 'Cagayan', 'Isabela', 'Nueva Viscaya', 'Quirino Province'];
+                regionProvince['R3'] = ['Aurora', 'Bataan', 'Bulacan', 'Nueva Ecija','Pampanga','Tarlac','Zambales'];
+                regionProvince['R4a'] = ['Cavite', 'Laguna', 'Batangas', 'Quezon'];
+                regionProvince['R4b'] = ['Mindoro Occidental', 'Mindoro Oriental', 'Marinduue', 'Romblon','Palawan'];
+                regionProvince['R5'] = ['Masbate', 'Catanduanes', 'Sorsogon', 'Albay','Camarines Sur','Camarines Norte'];
+                regionProvince['R6'] = ['Negros Occidental', 'Guimaras', 'Iloilo', 'Capiz','Antique','Aklan'];
+                regionProvince['R7'] = ['Bohol', 'Cebu', 'Negros Oriental', 'Siquijor'];
+                regionProvince['R8'] = ['Eastern Samar', 'Northern Samar', 'Western Samar','Leyte','Soutern Leyte','Biliran'];
+                regionProvince['R9'] = ['Zamboanga del Norte', 'Zamboanga Sibugay', 'Zamboanga del Sur'];
+                regionProvince['R10'] = ['Bukidnon', 'Camiguin', 'Lanao del Norte', 'Misamis Occidental','Misamis Oriental'];
+                regionProvince['R11'] = ['Compostela Valley', 'Davao del Norte', 'Davao Occidental', 'Davao Oriental','Davao del Sur','Davao City'];
+                regionProvince['R12'] = ['Cotabato', 'South Cotabato', 'Sultan Kudarat', 'Cotabato City','Saragani'];
+                regionProvince['R13'] = ['Agusan del Norte', 'Agusan del Sur', 'Surigao del Norte', 'Surigao del Sur','Dinagat Island'];
+
+                function ChangeRegionList() {
+                  var regList = document.getElementById("region");
+                  var provList = document.getElementById("province");
+                  var selReg = regList.options[regList.selectedIndex].value;
+                  while (provList.options.length) {
+                      provList.remove(0);
+                  }
+                  var regs = regionProvince[selReg];
+                  if (regs) {
+                      var i;
+                      for (i = 0; i < regs.length; i++) {
+                          var reg = new Option(regs[i], i);
+                          provList.options.add(reg);
+                      }
+                  }
+                } 
+			        </script>
             <div class="row">
               <div class="col-15"> 
                 <label for="barangay-s">Barangay: </label>
