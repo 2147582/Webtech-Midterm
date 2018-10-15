@@ -1,4 +1,13 @@
-provinceBarangay['Baguio'] = ['Apugan-Loakan', 'Asin Road', 'Atok Trail', 'Bakakeng Central', 'Bakakeng North', 'Happy Hollow', 'Balsigan', 'Bayan Park West', 'Bayan Park East', 'Brookspoint', 'Brookside', 'Cabinet Hill- Teachers Camp', 'Camp Allen', 'Camp 7', 'Camp 8', 'Campo Filipino', 'City Camp Central', 'City Camp Proper', 'Country Club Village', 'Cresencia Village', 'Dasigan, Upper', 'DPS Area', 'Dizon Subdivision']
+CityBarangay['Baguio'] = ['Apugan-Loakan', 'Asin Road', 'Atok Trail', 'Bakakeng Central', 'Bakakeng North', 'Happy Hollow', 'Balsigan', 'Bayan Park West', 'Bayan Park East', 'Brookspoint', 'Brookside', 'Cabinet Hill- Teachers Camp', 'Camp Allen', 'Camp 7', 'Camp 8', 'Campo Filipino', 'City Camp Central', 'City Camp Proper', 'Country Club Village', 'Cresencia Village', 'Dasigan, Upper', 'DPS Area', 'Dizon Subdivision']
+
+
+ProvinceMunicipalites['Benguet'] = ['Atok', 'Bakun', 'Bokod', 'Buguis', 'Itogon', 'Kabayan', 'Kapangan', 'Kibungan', 'La Trinidad', 'Mankayan', 'Sablan', 'Tuba', 'Tublauy']
+
+CityBarangay['Atok'] = ['Abiang', 'Caliking', 'Cattubo', 'Naguey', 'Paoay', 'Pasdong', 'Poblacion', 'Topdac']
+
+CityBarangay['Bakun'] = ['Ampusongan', 'Bagu', 'Dalipey', 'Gambang', 'Kayapa', 'Poblacion(Central)', 'Sinacbat']
+
+CityBarangay['Bokod'] = ['Ambuclao', 'Bila', 'Bobok-Bisal', 'Daclan', 'Ekip', 'Karao', 'Nawal', 'Pito', 'Poblacion', 'Tikey']
 
 
 
@@ -24,8 +33,14 @@ provinceBarangay['Baguio'] = ['Apugan-Loakan', 'Asin Road', 'Atok Trail', 'Bakak
 
 
 
+Reference: https://psa.gov.ph/content/population-319-thousand-was-recorded-baguio-city-results-2010-census-population-and-housing -- Baguiobarangay
+
+http://www.dilgcar.com/index.php/2015-07-10-07-24-09/province-of-benguet 
 
 
+http://www.dilgcar.com/index.php/2015-07-10-07-24-09/municipality-of-atok
 
+http://www.dilgcar.com/index.php/2015-07-10-07-24-09/municipality-of-bakun
 
-Reference: https://psa.gov.ph/content/population-319-thousand-was-recorded-baguio-city-results-2010-census-population-and-housing
+http://www.dilgcar.com/index.php/2015-07-10-07-24-09/municipality-of-bokod
+
