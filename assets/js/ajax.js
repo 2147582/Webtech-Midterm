@@ -14,3 +14,11 @@ function loadDoc() {
   xhttp.open("GET", "rescue-me.html", true);
   xhttp.send();
 }
+
+$(document).ready(function(){
+        $('button').click(function(){
+            $('#about').animate({
+                height: 'toggle'
+        });
+        });
+});
