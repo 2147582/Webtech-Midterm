@@ -1,0 +1,12 @@
+ProvinceMunicipalites['Mountain Province'] = ['Barlig', 'Bauko', Besao', 'Bontoc', 'Natonin', 'Paracelis', 'Sabangan', 'Sadanga', 'Sagada',  'Tadian']
+
+CityBarangay['Barlig'] = ['Chupac', 'Fiangtin', 'Gawana', 'Kaleo', 'Latang', 'Lias Kanluran', 'Lias Silangan', 'Lingoy', 'Lunas', 'Macalana', 'Ogoog']
+CityBarangay['Bauko'] = ['Abatan', 'Bagnen Oriente', 'Bagnen Proper', 'Balintaugan', 'Banao', 'Bila(Bua)', 'Guinzadan Central', 'Guinzadan Norte', 'Guinzadan Sur', 'Lagawa', 'Leseb', 'Mabaay', 'Mayag', 'Monamon Norte', '	Monamon Sur', 'Mount Data', 'Otucan Norte', 'Otucan Sur', '	Poblacion (Bauko)', 'Sadsadan', 'Sinto', 'Tapapan' ]
+CityBarangay['Besao'] = ['Agawa	', 'Ambaguio', 'Banguitan', 'Besao East (Besao Proper)', 'Besao West', 'Catengan', 'Gueday', 'Kin-iway (Pob.)', 'Lacmaan', 'Laylaya', 'Padangan', 'Payeo', 'Suquib', 'Tamboan']
+CityBarangay['Bontoc'] = ['Alab Proper', 'Alab Oriente', 'Balili', 'Bayyo', 'Bontoc iLi', 'Caneo', 'Calutit', 'Dalican', 'Gonogon', 'Guinaang', 'Mainit', 'Maligcong', 'Poblacion (Bontoc)', 'Samoki', 'Talubin', 'Tocucan']
+CityBarangay['Natonin'] = ['Alunogan','Balangao', 'Banao', 'Banawal', 'Butac', 'Maducayan', 'Poblacion', 'Pudo', 'Saliok', 'Santa Isabel', 'Tonglayan' ]
+CityBarangay['Paracelis'] = ['Anonat', 'Bacarni', 'Bananao', 'Bantay', 'Butigue', 'Bunot', 'Buringal', 'Palitod', 'Poblacion' ]
+CityBarangay['Sabangan'] = ['Bao-angan', 'Bun-ayan', 'Busa', 'Camatagan', 'Capinitan', 'Data', 'Gayang', 'Lagan', 'Losad', 'Namatec', 'Napua', 'Pingad', 'Poblacion', '	Supang', 'Tambingan' ]
+CityBarangay['Sadanga'] = ['Anabel', 'Belwang', 'Betwagan', 'Bekigan', 'Demang', 'Poblacion', 'Sacasacan', 'Saclit' ]
+CityBarangay['Sagada'] = ['Aguid', 'Ambasing', 'Angkeling', 'Antadao', 'Balugan', 'Bangaan', 'Dagdag (Pob.)', 'Demang (Pob.)', 'Fidelisan', 'Kilong', 'Madongo', 'Nacagang', 'Poblacion (Patay)', 'Pide', 'Suyo', 'Taccong', 'Tanulong', 'Tetepan Norte', 'Tetepan Sur' ]
+CityBarangay['Tadian'] = ['Balaoa', 'Banaao', 'Bantey', 'Batayan', 'Bunga', 'Cadad-anan', 'Cagubatan', 'Duagan', '	Dacudac', 'Kayan East', 'Kayan West', 'Lenga', 'Lubon', 'Mabalite', 'Masla', 'Pandayan', 'Poblacion', 'Sumadel', 'Tue']
