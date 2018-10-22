@@ -37,6 +37,45 @@
         width: 100%;
         margin-top: 0;
     }
+    
+    
+    /* Form Area */
+    .col-15, .col-35, label[for=fname] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .col-15, .col-35, input[type=text] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .col-15, .col-35, label[for=gender], {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .col-15, .col-35, input[type=text], .lname {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .col-15, .col-35, label[for=age] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .col-15, .col-35, input[type=number] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
 }
 
 .col-15 {
@@ -48,6 +87,11 @@
 .col-35 {
     float: left;
     width: 35%;
+    margin-top: 6px;
+}
+
+.col-100 {
+    width: 100%;
     margin-top: 6px;
 }
 
@@ -149,7 +193,9 @@ textarea {
     padding: 20px;
 }
 
-#buttons > a > button {background-color: #008CBA;}
+#buttons > a > button {
+    background-color: #008CBA;
+}
 
 button {
     border: none;
@@ -204,13 +250,28 @@ p {
     padding: 20px;
 }
 
-.bottom-pane > #button-pane > button {
+.col-100 > a > button {
     border: none;
     color: white;
+    width: 100%;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: 'Quicksand';
+    background-color: #008CBA;
+}
+
+.col-50 > a > button {
+    border: none;
+    color: white;
+    width: 70%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Quicksand';
+    background-color: #008CBA;
 }
