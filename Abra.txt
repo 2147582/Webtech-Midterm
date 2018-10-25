@@ -1,1 +1,55 @@
-ProvinceMunicipalities['Abra'] = ['Bangued', 'Boliney', 'Bucay', 'Bucloc', 'Daguioman', 'Danglas', 'Dolores', 'La Paz', 'Lacub', 'Lagangilang', 'Lagayan', 'Langiden', 'Licun-Baay', 'Luba', 'Malibcong', 'Manabo', 'Peñarrubia', 'Pidigan', 'Pilar', 'Sallapadan', 'San Isidro', 'San Juan', 'San Quintin', 'Tayum', '', '', '', '', '', ]
+ProvinceMunicipalities['Abra'] = ['Bangued', 'Boliney', 'Bucay', 'Bucloc', 'Daguioman', 'Danglas', 'Dolores', 'La Paz', 'Lacub', 'Lagangilang', 'Lagayan', 'Langiden', 'Licuan-Baay', 'Luba', 'Malibcong', 'Manabo', 'Peñarrubia', 'Pidigan', 'Pilar', 'Sallapadan', 'San Isidro', 'San Juan', 'San Quintin', 'Tayum', 'Tineg', 'Tubo', 'Villaviciosa', ]
+
+CityBarangay['Bangued'] = ['Agtangao', 'Angad', ' Bañacao', 'Bangbangar', 'Cabuloan', 'Calaba', 'Tablac (Calot)', 'Cosili West (Buaya)', 'Cosili East (Proper)', 'Dangdangla', 'Lingtan', 'Lipcan', 'Lubong', 'Macarcarmay', 'Maoay', 'Macray', 'Malita', 'Palao', 'Patucannay', 'Sagap', 'San Antonio', 'Santa Rosa', 'Sao-atan', 'Sappaac', 'Zone 2 Pob. (Consiliman)', 'Zone 3 Pob. (Lalaud)', ' Zone 4 Pob. (Town Proper)', 'Zone 5 Pob. (Bo. Barikir)', 'Zone 6 Pob. (Sinapangan)', 'Zone 7 Pob. (Baliling)', 'Zone 1 Pob. (Nalasin)']
+CityBarangay['Boliney'] = ['Amti', 'Bao-yan', 'Danac East', 'Danac East', 'Dumagas', 'Kilong-Olao', 'Poblacion (Boliney)', 'Danac West']
+CityBarangay['Bucay'] = ['Abang', 'Bangbangcag', 'Bangcagan', 'Banglolao', 'Bugbog', 'Calao', 'Dugong', 'Labon', 'Layugan', 'Madalipay', 'Pagala', 'Palaquio', 'Pakiling', 'Patoc', ' North Poblacion', 'South Poblacion', 'Quimloong', 'Salnec', 'San Miguel', 'Siblong', 'Tabiog']
+CityBarangay['Bucloc'] = ['Ducligan', 'Labaan', 'Lamao (Poblacion)', 'Lingey']
+CityBarangay['Daguioman] = ['Ableg', 'Cabaruyan', 'Pikek', 'Tui (Poblacion)']
+CityBarangay['Danglas'] = ['Abaquid', 'Cabaruan', 'Caupasan (Poblacion)', 'Danglas', 'Nagaparan', 'Padangitan', 'Pangal']
+CityBarangay['Dolores'] = ['Bayaan', 'Cabaroan', 'Calumbaya', 'Cardona', 'Isit', 'Kimmalaba', 'Libtec', 'Lub-lubba', 'Mudiit', 'Namit-ingan', 'Pacac', 'Poblacion', 'Salucag', 'Talogtog', 'Taping']
+CityBarangay['La Paz'] = ['Benben (Bonbon)', 'Bulbulala', 'Buli', 'Canan (Gapan)', 'Liguis', 'Malabbaga', 'Mudeng', 'Pidipid', 'Poblacion', 'San Gregorio', 'Toon', 'Udangan']
+CityBarangay['Lacub'] = ['Bacag', 'Buneg', 'Guinguinabang', 'Lan-ag', 'Pacoc', 'Poblacion (Talampac)']
+CityBarangay['Lagangilang'] = ['Aguet', 'Aguet', 'Balais', 'Cayapa', 'Dalaguisen', 'Laang', 'Lagben', 'Laguiben', 'Nagtipulan', 'Nagtupacan', 'Paganao', 'Pawa', 'Poblacion', 'Presentar', 'San Isidro', 'Tagodtod', 'Taping']
+CityBarangay['Lagayan'] = ['Ba-i', 'Collago', 'Pang-ot', 'Poblacion', 'Pulot']
+CityBarangay['Langiden'] = ['Baac', 'Dalayap (Nalaas)', 'Mabungtot', 'Malapaao', 'Poblacion', 'Quillat']
+CityBarangay['Licuan-Baay'] = ['Bonglo (Patagui)', 'Bulbulala', 'Cawayan', 'Domenglay', 'Lenneng', 'Mapisla', 'Mogao', 'Nalbuan', 'Poblacion', 'Subagan', 'Tumalip']
+CityBarangay['Luba'] = ['Ampalioc', 'Ampalioc', 'Gayaman', 'Lul-luno', 'Luzong', 'Nagbukel-Tuquipa', 'Poblacion', 'Sabnangan']
+CityBarangay['Malibcong'] = ['Bayabas', 'Bayabas', 'Bayabas', 'Dulao', 'Duldulao', 'Gacab', '	Lat-ey', 'Malibcong (Pob.)', 'Mataragan', 'Pacgued', 'Taripan', 'Umnap']
+CityBarangay['Manabo'] = ['Catacdegan Viejo', 'Luzong', 'Ayyeng (Pob.)', 'San Jose Norte', 'San Jose Sur', 'San Juan Norte', 'San Juan Sur', '	San Ramon East', 'San Ramon West', 'Santo Tomas', 'Catacdegan Nuevo']
+CityBarangay['Peñarrubia'] = ['Dumayco', 'Lusuac', 'Namarabar', 'Patiao', 'Malamsit (Pau-Malamsit)', 'Poblacion', 'Riang (Tiang)', 'Santa Rosa', 'Tattawa']
+CityBarangay['Pidigan'] = ['Alinaya', 'Arab', 'Garreta', 'Immuli', 'Laskig', 'Monggoc', 'Naguirayan', 'Pamutic', 'Pangtud', 'Poblacion East', 'Poblacion West', 'San Diego', 'Sulbec', 'Sulbec', 'Yuyeng']
+CityBarangay['Pilar'] = ['Bolbolo', 'Brookside', 'Dalit', 'Dintan', 'Gapang', 'Kinabiti', 'Maliplipit', 'Nagcanasan', 'Nanangduan', 'Narnara', 'Ocup', 'Pang-ot', 'Patad', 'Poblacion', 'San Juan East', 'San Juan West', '	South Balioag', 'Tikitik', 'Villavieja']
+CityBarangay['Sallapadan'] = ['Bazar', 'Bilabila', ' Gangal (Poblacion)', 'Maguyepyep', 'Naguilian', 'Saccaang', 'Sallapadan', 'Subusob', 'Ud-udiao']
+CityBarangay['San Isidro'] = ['Cabayogan', 'Dalimag', 'Langbaban', 'Manayday', 'Pantoc', 'Poblacion', 'Sabtan-olo', 'San Marcial', 'Tangbao']
+CityBarangay['San Juan'] = ['Abualan', 'Badas', 'Ba-ug', 'Cabcaburao', 'Colabaoan', 'Culiong', 'Daoidao', 'Guimba', 'Lam-ag', 'Lumobang', 'Nangobongan', 'Pattaoig', 'Poblacion North', 'Poblacion South', 'Quidaoen', 'Sabangan', 'Silet', 'Supi-il', 'Tagaytay']
+CityBarangay['San Quintin'] = ['', ]
+CityBarangay['Tayum] = ['', ]
+CityBarangay['Tineg] = ['', ]
+CityBarangay['Tubo] = ['', ]
+CityBarangay['Villaviciosa] = ['', ]
+
+
+
+
+References:
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/province-of-abra
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-bucay
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-bucloc
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-daguioman
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-danglas
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-dolores
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-la-paz
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-lacub
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-lagangilang
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-lagayan
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-langiden
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-licuan-baay
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-luba
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-malibcong
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-manabo
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-penarrubia
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-pidigan
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-pilar
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-sallapadan
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-san-isidro
+http://www.dilgcar.com/index.php/2015-07-10-04-38-51/municipality-of-san-juan
