@@ -1,0 +1,26 @@
+ProvinceMunicipalites['Apayao'] = ['Calanasan', 'Conner', 'Flora', 'Kabugao', 'Luna', 'Pudtol', 'Sta. Marcela']
+
+CityBarangay['Calanasan'] = ['Butao', 'Cadaclan', 'Don Roque Ablan', 'Eleazar', 'Eva Puzon', 'Kabugawan', 'Langnao', 'Lubong', 'Macalino', 'Naguilian', 'Namaltugan', 'Poblacion', 'Sabangan', 'Sta. Elena', 'Sta. Filomena', 'Tanglagan', 'Tubang', 'Tubongan']
+
+CityBarangay['Conner'] = ['Alangigan', 'Banban', 'Buluan', 'Caglayan', 'Calafug', 'Cupis', 'Daga', 'Guina-ang', 'Guinamgaman', 'Ili', 'Karikitan', 'Katablangan', 'Malama', 'Manag', 'Mawigue', 'Nabuangan', 'Paddaoan', 'Puguin', 'Ripang', 'Sacpil', 'Talifugo']
+
+CityBarangay['Flora'] = ['Allig', 'Anninipan', 'Anninipan', 'Balasi', 'Balluyan', 'Lower Atok', 'Malayugan', 'Mallig', 'Malubibit Norte', 'Malubibit Sur', 'Poblacion East', 'Poblacion West', 'San Jose', 'Sta. Maria', 'Tamalunog', '	Upper Atok']
+
+CityBarangay['Kabugao'] = ['Badduat', 'Baliwanan ', 'Bulu', 'Cabetayan', 'Dagara', 'Dibagat', 'Karagawan', 'Kumao', 'Laco', 'Lenneng', 'Lucab', 'Luttuacan', 'Madatag', 'Madduang', 'Magabta', 'Maragat', 'Musimut', 'Nagbabalayan', 'Poblacion', 'Tuyangan', 'Waga']
+
+CityBarangay['Luna'] = ['Bacsay', 'Cagandungan', 'Calabigan', 'Capagaypayan', 'Dagupan', 'Lappa', 'Luyon', 'Marag', 'Poblacion', 'Quirino', 'Salvacion', 'San Francisco', 'San Gregorio', 'San Isidro Norte', 'San Isidro Sur', 'San Jose', 'San Sebastian', 'Shalom', 'Sta. Lina', 'Tumog', 'Turod ', 'Zumigui']
+
+CityBarangay['Pudtol'] = ['Aga', 'Alem', 'Amado', 'Aurora', 'Cabatacan', 'Cacalaggan', 'Capanikkian', 'Doña Loreta', 'Emilia', 'Imelda', 'Lower Maton', 'Lt. Bilag', 'Lydia', 'Malibang', 'Mataguisi', 'Poblacion', 'San Antonio', 'San Jose', 'San Luis', 'San Mariano', 'Swan', 'Upper Maton']
+
+CityBarangay['Sta. Marcela'] = ['Barocboc', 'Consuelo', 'Emiliana', 'Imelda', 'Malekkeg', 'Marcela', 'Nueva', 'Panay', 'San Antonio', 'San Carlos', 'San Juan', 'San Mariano', 'Sipa']
+
+
+
+Reference:
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/province-of-apayao
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-calanasan
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-conner
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-flora
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-luna
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-pudtol
+http://www.dilgcar.com/index.php/2015-07-10-07-15-03/municipality-of-sta-marcela
