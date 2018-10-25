@@ -1,0 +1,27 @@
+ProvinceMunicipalities['Ifugao'] = ['Aguinaldo', 'Alfonso Lista', 'Asipulo', 'Banaue', 'Hingyon', 'Hungduan', 'Kiangan', 'Lagawe', 'Lamut', 'Mayoyao', 'Tinoc']
+
+CityBarangay['Aguinaldo'] = ['Awayan', 'Bunhian', 'Butac', 'Buwag', 'Chalalo', 'Damag', 'Galonogon', 'Halag', 'Itab', 'Jacmal', 'Majlong', 'Mongayang', 'Posnaan', 'Ta-ang', 'Talite', 'Ubao']
+
+CityBarangay['Alfonso Lista'] = ['Bangar', 'Busilac', 'Calimag', 'Calupaan', 'Caragasan', 'Dolowog', 'Kiling', 'Laya', 'Little Tadian', 'Namnama', 'Namillangan', 'Ngileb', 'Pinto', 'Poblacion', 'San Jose', 'San Juan', 'San Marcos', 'San Quintin', 'Santa Maria', 'Santo Domingo']
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+CityBarangay[''] = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
+Refernce:
+http://www.dilgcar.com/index.php/2015-07-10-09-25-49/province-of-ifugao
+http://www.dilgcar.com/index.php/2015-07-10-09-25-49/municipality-of-aguinaldo
+http://www.dilgcar.com/index.php/2015-07-10-09-25-49/municipality-of-alfonso-lista
