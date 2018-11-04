@@ -3,10 +3,10 @@
 <HTML>
   <head>
     <meta charset="utf-8">
-    <script src="assets/js/ajax.js"></script>
     <script src="assets/js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="assets/js/db.js"></script>
   <head>
   <body>
       <div id="title">
@@ -15,17 +15,16 @@
       
     <div class="container">
         <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
-            <div class="row">
-              <div class="col-100">
-                <label id="heading">Number of people involved: </label>
-              </div>
-              <div class="100">
-                <input type="number" placeholder="Count...">
-              </div>
-            </div>
-
             <br>
-
+            <div class="row"> <!-- individual information --> 
+              <div class="col-100">
+                <label id="date-detail"> Date Missing </label>
+              </div>
+              <div class="col-100">
+                <input type="date" id="date-missing" name="victim">
+              </div>
+                
+            </div>
             <div class="row"> <!-- individual information --> 
               <div class="col-100">
                 <label id="heading"> Person's Information </label>
@@ -35,13 +34,13 @@
                 <label for="fname"> First Name:</label>
               </div>
               <div class="col-35">
-                <input type="text" id="fname" name="victim" placeholder="Enter name..">
+                <input type="text" id="fname" name="victim" placeholder="First name..">
               </div>
               <div class="col-15">
                 <label for="gender"> Last Name:</label>
               </div>
               <div class="col-35">
-                <input type="text" id="lname" name="victim" placeholder="Enter name..">
+                <input type="text" id="lname" name="victim" placeholder="Last name..">
               </div>
 
 
@@ -101,7 +100,33 @@
                 <select id="province"></select> 
               </div>
             </div>
-              <script>
+           
+            <div class="row">
+              <div class="col-15"> 
+                <label for="case">Incident: </label>
+              </div>
+              <div class="col-35">
+                <select id="Barangay">
+                  <option value="1"> Flashflood </option>
+                  <option value="2"> Landslide </option>
+                  <option value="1"> Others </option>            
+                </select>
+              </div>
+            </div> <!-- end of row --> 
+
+            <div class="row">
+              <div class="col-100">
+                <label> Brief Description: </label>
+              </div>
+              <div class="col-100">
+                <textarea type="text" placeholder="Provide specific information here..."></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div> 
+      
+         <script>
 				var regionProvince = {};
 				regionProvince['ARMM'] = ['Maguindanao', 'Lanao del Sur', 'Sulu', 'Tawi-Tawi','Basilan'];
                 regionProvince['CAR'] = ['Abra', 'Benguet', 'Kalinga', 'Apayao', 'Mountain Province', 'Ifugao'];
@@ -138,40 +163,4 @@
                   }
                 } 
 			        </script>
-            <div class="row">
-              <div class="col-15"> 
-                <label for="barangay-s">Barangay: </label>
-              </div>
-              <div class="col-35">
-                <select id="Barangay">
-                  <option value="1"> Bakakeng </option>
-                  <option value="2"> Pacdal </option>
-                </select>
-              </div>
-              
-              <div class="col-15">
-                <label for="municipality-s">Municipality: </label>
-              </div>
-              <div class="col-35">
-                <select id="Municipality">
-                  <option> Municipality </option>
-                  <option value="1"> Baguio City </option>
-                </select>
-              </div>
-            </div> <!-- end of row --> 
-
-            <div class="row">
-              <div class="col-100">
-                <label> Brief Description: </label>
-              </div>
-              <div class="col-100">
-                <textarea type="text" placeholder="Provide specific information here..."></textarea>
-              </div>
-
-
-            </div>
-            
-            <input type="submit" value="Submit">
-        </form>
-    </div> 
   </body>

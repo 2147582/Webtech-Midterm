@@ -1,4 +1,4 @@
-var request = indexedDB.open('SearchRescue',1);
+var request = indexedDB.open('SearchRescue', 3);
 
 request.onupgradeneeded = function(e){
     var db = e.target.result;
@@ -7,12 +7,11 @@ request.onupgradeneeded = function(e){
                                                   autoIncrement: true});
         os.createIndex('name', 'name', { unique: false });
         os.createIndex('age', 'age', { unique: false });
+        os.createIndex('gender', 'gender', { unique: false });
 		os.createIndex('date', 'date', { unique: false });
 		os.createIndex('region', 'region', { unique: false });
-		os.createIndex('province', 'province', { unique: false });
 		os.createIndex('address', 'address', { unique: false });
         os.createIndex('incident', 'incident', { unique: false });
-		os.createIndex('description', 'description', { unique: false });
        }
 }
 
@@ -29,12 +28,10 @@ request.onerror = function (e) {
 function addIncident() {
     var name = document.getElementById('name').value;
     var age = document.getElementById('age').value;
-    var date = document.getElementById('date').value;
-	var region = document.getElementById('region').value;
-	var province = document.getElementById('province').value;
-	var address = document.getElementById('address').value;
-	var incident = document.getElementById('incident').value;
-	var description = document.getElementById('description').value;
+    var gender = document.getElementById('Gender').value;
+    var date = document.getElementById('date-missing').value;
+	var address = document.getElementById('province').value;
+	var incident = document.getElementById('incicase').value;
     var transaction = db.transaction(["incidents"], "readwrite");
     
     var store = transaction.objectStore("incidents");
@@ -42,12 +39,11 @@ function addIncident() {
     var incidents = {
         name: name,
         age: age,
+        gender: gender,
 		date: date,
-		region: region,
 		province: province,
-		address: address
-        incident: incident,
-		description: description
+		address: province,
+        incident: incicase,
     };
     
     request = store.add(incidents);
@@ -70,18 +66,20 @@ function showIncidents(e) {
     var index = store.index('name');
     
     var output='';
-    index.openCursor().onsuccess = function (e) {
+    index.openCursor().onsuccess = function(e) {
         var cursor = e.target.result;
         if (cursor) {
-            output += "<span>";
-            output += "<h2>" + cursor.value.name + "</h2><br>";
-            output += "<h3>" + cursor.value.date + "</h3><br>";
-			output += "<h3>" + cursor.value.address + "</h3><br>";
-            output += "<p>" + cursor.value.incident + "</p><br>";
-            output += "</span> <hr>";
+            output += "<tr>";
+            output += "<td>" + cursor.value.name + "</td>";
+            output += "<td>" + cursor.value.age + "</td>";
+            output += "<td>" + cursor.value.gender + "</td>";
+            output += "<td>" + cursor.value.date + "</td>";
+			output += "<td>" + cursor.value.address + "</td>";
+            output += "<td>" + cursor.value.incident + "</td>";
+            output += "</tr>";
             cursor.continue(); 
         }
-            document.getElementById('incidents').innerHTML=(output);
+            document.getElementById('dbcontent').html(output);
             console.log("Displayed the results");
     };
 }

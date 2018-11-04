@@ -6,12 +6,11 @@
     
     <meta charset="utf-8">
      
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/ajax.js"></script>
+      <script src="assets/js/main.js"></script>
     <script src="assets/js/query.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+    <script src="assets/js/db.js"></script>
       
     <title> Search and Rescue Web Application </title>
 
@@ -24,24 +23,24 @@
           </div>
 
           <div id="updates">
-            <h3> Latest update as of DD-MM-YYYY </h3>
+            <h3> Latest update as of <h3 id="currdate"></h3> </h3>
           </div>
       </div>
       <div id="info1">
         <table align="center">
-            <tr>
-              <th>Name </th>
-              <th>Date Missing </th>
-              <th>Location </th>
-              <th>Incident </th>
-            </tr>
-          
-            <tr>
-              <th>Name </th>
-              <th>MM-DD-YYYY </th>
-              <th>Area </th>
-              <th>Flashflood </th>
-            </tr>
+            <thead>
+                <tr>
+                  <th>Name </th>
+                  <th>Age </th>
+                  <th>Gender</th>
+                  <th>Date Missing </th>
+                  <th>Location </th>
+                  <th>Incident </th>
+                </tr>
+            </thead>
+            <tbody id="dbcontent">
+            
+            </tbody>
         </table>
       </div>
 
@@ -58,5 +57,12 @@
         </footer>
       
 
+    <script>
+      n =  new Date();
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("currdate").innerHTML = m + "/" + d + "/" + y;
+    </script>
   </body>
 </html>
