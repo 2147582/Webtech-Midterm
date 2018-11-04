@@ -1,4 +1,4 @@
-var request = indexedDB.open('SearchRescue', 3);
+var request = indexedDB.open('SearchRescue', 1);
 
 request.onupgradeneeded = function(e){
     var db = e.target.result;
@@ -79,7 +79,7 @@ function showIncidents(e) {
             output += "</tr>";
             cursor.continue(); 
         }
-            document.getElementById('dbcontent').html(output);
+        document.getElementById('dbcontent').innerHTML(output);
             console.log("Displayed the results");
     };
 }
